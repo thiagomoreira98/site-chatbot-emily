@@ -1,8 +1,7 @@
-rodapé e Layout: https://nodejs.org/en
+rodape e Layout: https://nodejs.org/en
 menu: http://treedaysgrace.com
-chat: https://www.facebook.com/
+chat: https://www.facebook.com
 mecanica do chatter: https://bootsnip.com/snippets/featured/simple-chat
 
 THIAGO MOREIRA
 THIAGO DOMINGOS
-

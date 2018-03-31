@@ -8,7 +8,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/chat.css">
 
     <title>Emily - Chat</title>
 
@@ -29,9 +31,48 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <p>batata</p>
+    <div class="container" style="margin: 30px 220px">
+        <div class="content container-fluid bootstrap snippets">
+            <div class="row row-broken">
+                <div class="col-sm-9 col-xs-12 chat" style="overflow: hidden; outline: none;" tabindex="5001">
+                    <div class="col-inside-lg decor-default">
+                        <div class="chat-body">
+                            <h6>Chat</h6>
+                            <div class="chat-message">
+                                <div class="answer left">
+                                    <div class="avatar">
+                                        <!-- <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="User name"> -->
+                                        <img src="./img/chat-emily.jpg" alt="User name">
+                                        <div class="status online"></div>
+                                    </div>
+                                    <div class="name">Emily</div>
+                                    <div class="text">
+                                        Seja Bem vindo ! Como posso ajudar ?
+                                    </div>
+                                    <div class="time">5 min ago</div>
+                                </div>
+                                <div class="answer right">
+                                    <div class="avatar">
+                                        <!-- <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="User name"> -->
+                                        <img src="./img/avatar.png" alt="User name">
+                                        <div class="status online"></div>
+                                    </div>
+                                    <div class="name">User</div>
+                                    <div class="text">
+                                        Quero Batata !
+                                    </div>
+                                    <div class="time">4 min ago</div>
+                                </div>
+                            </div>
+
+                            <div class="answer-add">
+                                <input id="write-message" placeholder="Write a message">
+                                <span class="answer-btn answer-btn-2" onclick="sendMessage()"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -71,6 +112,8 @@
     <script src="./js/jquery-3.3.1.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/chat.js"></script>
+    <script src="./js/niceScroll.js"></script>
 </body>
 
 </html>
